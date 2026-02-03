@@ -1,0 +1,28 @@
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+%Section: Project
+\newpage
+\sectionTitle{Projects}{\faUniversity}
+
+\begin{projects}
+<BLOCK> for p in projects -</BLOCK>
+    \project
+        {<VAR> p.name </VAR>}{}
+        <BLOCK> if p.link -</BLOCK>
+		{\website{<VAR>p.link.url</VAR>}{<VAR>p.link.type</VAR>}}
+	    <BLOCK> else -</BLOCK>
+        {<VAR>p.location</VAR>}
+        <BLOCK> endif -</BLOCK>
+        {<VAR> p.description </VAR>}
+        {<VAR> p.technologies | join(",") | replace("#", "\#")</VAR>}
+<BLOCK> endfor -</BLOCK>
+\end{projects}

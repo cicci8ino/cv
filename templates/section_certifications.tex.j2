@@ -1,0 +1,19 @@
+% YAAC Another Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/yaac-another-awesome-cv
+%
+% Author:
+% Christophe Roger
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+%Section: Certifications
+\sectionTitle{Certifications}{\faCertificate}
+\website{<VAR>credly_profile</VAR>}{Credly profile} \\
+\begin{scholarship}
+<BLOCK>- for c in certifications</BLOCK>
+  \scholarshipentry{<VAR>c.year</VAR>}{<VAR>c.name</VAR>}
+<BLOCK>- endfor</BLOCK>
+\end{scholarship}

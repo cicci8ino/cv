@@ -1,0 +1,21 @@
+%Section: Languages
+\twocolumnsection
+{\sectionTitle{Languages}{\faLanguage}
+\begin{skills}
+    <BLOCK> for lang in languages -</BLOCK>
+    \skill{<VAR>lang.language</VAR><BLOCK> if lang.proficiency == "native" </BLOCK> (Native)<BLOCK> endif </BLOCK>}{<VAR>
+        5 if lang.proficiency == "native"
+        else 4 if lang.proficiency in ["full_professional","professional_working"]
+        else 3 if lang.proficiency in ["limited_working","upper_intermediate","intermediate"]
+        else 2 if lang.proficiency in ["elementary","basic"]
+        else 1
+    </VAR>}
+    <BLOCK> endfor -</BLOCK>
+\end{skills}}
+{\sectionTitle{Interests}{\faLightbulb}
+\vspace{1em}
+\begin{tabular}{rl}
+    <BLOCK> for i in interests -</BLOCK>
+    \textsc{<VAR>i.name</VAR>:} <VAR> i.description </VAR>\\
+    <BLOCK> endfor -</BLOCK>
+\end{tabular}}

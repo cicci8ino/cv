@@ -1,0 +1,99 @@
+{
+  "cv_id": "cv-andrea-martino",
+  "projects": [
+    {
+      "name": "Personal Homelab",
+      "type": "personal",
+      "role": "Designer and maintainer",
+      "organization": null,
+      "location": "@Home",
+      "description": "Infrastructure used to test interesting open source projects and to serve basic home automation functionalities.",
+      "technologies": [
+        "Proxmox",
+        "Kubernetes",
+        "Cloudflare Zero Trust",
+        "Grafana",
+        "VictoriaMetrics",
+        "VictoriaLogs",
+        "Ansible",
+        "Terraform"
+      ],
+      "link": null
+    },
+    {
+      "name": "CaweBot / SbirraBot",
+      "type": "personal",
+      "role": "Developer",
+      "location": "Telegram bots",
+      "organization": null,
+      "description": "Very simple Telegram bots used to approach CI/CD and container technologies.",
+      "technologies": [
+        "Python",
+        "MongoDB",
+        "Docker",
+        "CI/CD"
+      ],
+      "link": null
+    },
+    {
+      "name": "OpenDash",
+      "type": "personal",
+      "role": "Developer",
+      "organization": null,
+      "description": "Unfinished open source prototype for sending racing simulators telemetry to serial devices.",
+      "technologies": [
+        "C#",
+        "Arduino"
+      ],
+      "link": { 
+        "url": "https://gitlab.com/cicci8ino/OpenDash",
+        "type": "GitHub"
+        }
+    },
+    {
+      "name": "TeensyCANfw",
+      "type": "thesis",
+      "role": "Developer",
+      "organization": null,
+      "location": "Master Degree Thesis",
+      "description": "Implementation of a CAN firewall on a Teensy microcontroller.",
+      "technologies": [
+        "Teensy",
+        "Arduino",
+        "CAN"
+      ],
+      "link": null
+    },
+    {
+      "name": "EFAITOS",
+      "type": "university",
+      "role": "Developer",
+      "organization": null,
+      "description": "Java implementation of 'Escape from Aliens in Outer Space' as part of Software Engineering class.",
+      "technologies": [
+        "Java",
+        "Game",
+        "Multiplayer"
+      ],
+      "link": { 
+        "url": "https://gitlab.com/cicci8ino/ingsw-alien-yolo",
+        "type": "Gitlab"
+        }
+    },
+    {
+      "name": "IoTProject2017",
+      "type": "university",
+      "role": "Developer",
+      "organization": null,
+      "description": "Implementation of a lightweight publish-subscribe protocol in TinyOS as part of IoT class.",
+      "technologies": [
+        "TinyOS",
+        "IoT"
+      ],
+      "link": { 
+        "url": "https://github.com/fochetz/IoTProject2017",
+        "type": "GitHub"
+      }
+    }
+  ]
+}

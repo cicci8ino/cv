@@ -1,0 +1,46 @@
+{
+  "credly_profile": "https://www.credly.com/users/andrea-martino.61694ca4",
+  "cv_id": "cv-andrea-martino",
+  "certifications": [
+    {
+      "name": "ISO/IEC 27001 Foundation",
+      "issuer": "APMG International",
+      "year": 2020
+    },
+    {
+      "name": "GIAC Certified Enterprise Defender (GCED)",
+      "issuer": "GIAC",
+      "year": 2022
+    },
+    {
+      "name": "GIAC Advisory Board",
+      "issuer": "GIAC",
+      "year": 2022
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "AWS",
+      "year": 2024
+    },
+    {
+      "name": "Certified Kubernetes Administrator",
+      "issuer": "CNCF",
+      "year": 2024
+    },
+    {
+      "name": "Certified Kubernetes Application Developer",
+      "issuer": "CNCF",
+      "year": 2025
+    },
+    {
+      "name": "Certified Kubernetes Security Specialist",
+      "issuer": "CNCF",
+      "year": 2025
+    },
+    {
+      "name": "Kubestronaut",
+      "issuer": "CNCF",
+      "year": 2025
+    }
+  ]
+}

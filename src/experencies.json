@@ -1,0 +1,120 @@
+{
+  "cv_id": "cv-andrea-martino",
+  "experiences": [
+    {
+      "id": "controlplane-2024",
+      "company": "ControlPlane",
+      "role": "Security Consultant",
+      "location": "Remote",
+      "start_date": "2024-01",
+      "end_date": null,
+      "current": true,
+      "highlights": [
+        "Designed and delivered threat modeling engagements for enterprise platforms against industry standards (MITRE ATT&CK, CIS Benchmarks, NIST).",
+        "Co-authored Flux D1 and D2 Reference Design Manuals adopted by multiple enterprises to standardize GitOps operating models.",
+        "Architected an AI-assisted pipeline mapping ATT&CK patterns to structured tactics to accelerate adversarial analysis and reporting.",
+        "Enabled platform-as-product operating model through Infrastructure-as-Code and GitOps automation.",
+        "Designed Kubernetes security scenarios for large-scale Capture the Flag events (KubeCon) to train engineers on adversarial thinking and cloud native technologies.",
+        "Built and enforced supply-chain security controls for open-source ingestion to reduce dependency risk exposure across pipelines."
+      ],
+      "skills": [
+        "Kubernetes",
+        "DevSecOps",
+        "Automation",
+        "IaC",
+        "Terraform",
+        "Ansible",
+        "Cloud Native",
+        "Golang",
+        "Software Engineering",
+        "Flux",
+        "CTF",
+        "LLM",
+        "LangChain",
+        "MLflow",
+        "GCP",
+        "AWS",
+        "IdP",
+        "Supply Chain Security",
+        "API Gateway"
+      ]
+    },
+    {
+      "id": "unicredit-engineering",
+      "group": "UniCredit",
+      "company": "UniCredit Services S.C.p.A., UniCredit S.p.A.",
+      "role": "Cyber Security Engineer",
+      "location": "Milan",
+      "start_date": "2022-01",
+      "end_date": "2023-12",
+      "current": false,
+      "highlights": [
+        "Designed security controls for DevSecOps pipelines and Kubernetes clusters operating in regulated financial environments.",
+        "Engineered the on-prem security lab platform to replicate enterprise infrastructure for validation and experimentation of security use cases.",
+        "Designed automation patterns for the provisioning and configuration of firewalls, network switches, and virtualized environments to reduce operational toil.",
+        "Managed the enterprise container image scanning and runtime security platform to enforce workload policies across CI/CD and cluster environments.",
+        "Reviewed and hardened CI/CD pipelines to ensure secure build, signing, and deployment workflows.",
+        "Defined skill models and structured training paths for the Cyber Security Engineer role at group scale."
+      ],
+      "skills": [
+        "Kubernetes",
+        "DevSecOps",
+        "SSO",
+        "Automation",
+        "Infrastructure Security",
+        "Workload Authentication",
+        "Training",
+        "Containers",
+        "PAM",
+        "IaC",
+        "Azure",
+        "GCP"
+      ]
+    },
+    {
+      "id": "unicredit-datasec",
+      "company": "UniCredit Services S.C.p.A.",
+      "group": "UniCredit",
+      "role": "Data Security - Technical Lead",
+      "location": "Milan",
+      "start_date": "2020-01",
+      "end_date": "2021-12",
+      "current": false,
+      "highlights": [
+        "Led technical implementation of enterprise Data Loss Prevention (DLP) solutions across thousands of endpoints and mailboxes.",
+        "Executed maintenance, incident handling, and vulnerability management for critical data protection services.",
+        "Contributed to data protection strategy across business and security domains.",
+        "Coordinated cross-area execution to align data classification and DLP enforcement.",
+        "Drove change management and stakeholder alignment across large user populations.",
+        "Co-supervised a Master's thesis on searchable encryption applied to Data Loss Prevention"
+      ],
+      "skills": [
+        "DLP",
+        "Data Security",
+        "Training",
+        "Awareness",
+        "Vulnerability Management"
+      ]
+    },
+    {
+      "id": "unicredit-iam",
+      "company": "UniCredit Services S.C.p.A.",
+      "group": "UniCredit",
+      "role": "Identity and Access Management - Technical Expert",
+      "location": "Milan",
+      "start_date": "2018-05",
+      "end_date": "2019-12",
+      "current": false,
+      "highlights": [
+        "Defined and implemented identity and approval workflows for applicative users across thousands of enterprise applications.",
+        "Executed mitigation and exception processes for access risk remediation.",
+        "Delivered awareness and training programs to reduce identity-related risks."
+      ],
+      "skills": [
+        "PAM",
+        "Identity and Access Management",
+        "Training"
+      ]
+    }
+  ]
+}

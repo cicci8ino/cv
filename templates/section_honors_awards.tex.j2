@@ -1,0 +1,24 @@
+% YAAC Another Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/yaac-another-awesome-cv
+%
+% Author:
+% Christophe Roger
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+%Section: Scholarships and additional info
+\sectionTitle{Formation}{\faUniversity}
+
+\begin{scholarship}
+	<BLOCK> for edu in education -</BLOCK>
+		\scholarshipentry{<VAR> edu.graduation_year </VAR>}
+						{\textbf{<VAR> edu.degree </VAR>}, @ <VAR> edu.institution | replace("&", "\&") </VAR>.}
+	<BLOCK> if edu.thesis_title -</BLOCK>
+		\scholarshipentry{}{Th: \emph{<VAR> edu.thesis_title </VAR>}<BLOCK> if edu.grade </BLOCK> - <VAR> edu.grade </VAR><BLOCK> endif </BLOCK>}
+	<BLOCK> endif -</BLOCK>
+	<BLOCK> endfor -</BLOCK>
+
+\end{scholarship}

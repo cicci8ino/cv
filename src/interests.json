@@ -1,0 +1,17 @@
+{
+  "cv_id": "cv-andrea-martino",
+  "interests": [
+    {
+      "name": "General technology",
+      "description": "Everything related to tech"
+    },
+    {
+      "name": "Running",
+      "description": "(Slow) running"
+    },
+        {
+      "name": "Product design",
+      "description": "Design and 3D-printing"
+    }   
+  ]
+}

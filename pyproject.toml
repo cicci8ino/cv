@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "cv-tex"
+version = "0.1.0"
+description = "Deps + venv for rendering LaTeX from JSON"
+authors = ["cicci8ino"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jinja2-cli = "^1.0.0"

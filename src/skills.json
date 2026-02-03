@@ -1,0 +1,168 @@
+{
+  "cv_id": "cv-andrea-martino",
+  "schema_version": 2,
+"hard_skills": [
+    {
+      "category": "Platform and Cloud Security",
+      "items": [
+        {
+          "name": "Kubernetes and Platform Security",
+          "level": "excellent",
+          "description": "Hardening, identity, network policies, runtime controls"
+        },
+        {
+          "name": "Platform Engineering and GitOps",
+          "level": "excellent",
+          "description": "IaC/CaaC, GitOps, environment provisioning, automation"
+        },
+        {
+          "name": "API and Policy Enforcement",
+          "level": "good",
+          "description": "API gateway routing, authn/authz, OPA/Rego, CEL"
+        },
+        {
+          "name": "Secrets and Workload Identity",
+          "level": "good",
+          "description": "OIDC federation, service identity, secret access controls"
+        }
+      ]
+    },
+    {
+      "category": "Supply Chain and CI/CD Security",
+      "items": [
+        {
+          "name": "CI/CD Hardening and OSS Governance",
+          "level": "good",
+          "description": "Pipeline review, credential hygiene, secret handling, dependency intake and policy"
+        },
+        {
+          "name": "Artifact and Runtime Security",
+          "level": "good",
+          "description": "Image/artifact scanning, detection and enforcement for container workloads"
+        }
+      ]
+    },
+    {
+      "category": "Identity, Data, and Enterprise Security",
+      "items": [
+        {
+          "name": "Privileged Access Management",
+          "level": "excellent",
+          "description": null
+        },
+        {
+          "name": "Authentication and Authorization",
+          "level": "excellent",
+          "description": null
+        },
+        {
+          "name": "Data Protection",
+          "level": "excellent",
+          "description": "DLP, classification, anonymization"
+        }
+      ]
+    },
+    {
+      "category": "Infrastructure and Engineering",
+      "items": [
+        {
+          "name": "Networking and Segmentation",
+          "level": "strong",
+          "description": "Routing, protocols, firewalls, WAF"
+        },
+        {
+          "name": "Threat Modeling",
+          "level": "strong",
+          "description": "System decomposition, attack surface, ATT&CK mapping"
+        },
+        {
+          "name": "Secure Coding and Reverse Engineering",
+          "level": "good",
+          "description": "Secure coding practices; basic reverse engineering"
+        },
+        {
+          "name": "Cloud Environments",
+          "level": "good",
+          "description": "GCP, AWS; basic Azure"
+        },
+        {
+          "name": "Virtualization and Operating Systems",
+          "level": "good",
+          "description": "VMware, Proxmox, Linux, Windows, macOS"
+        },
+        {
+          "name": "Programming Languages",
+          "level": "good",
+          "description": "Golang, Python, Java, C#, C++"
+        }
+      ]
+    }
+  ],
+  "soft_skills": [
+    {
+      "category": "Collaboration and Stakeholders",
+      "items": [
+        {
+          "name": "Stakeholder alignment",
+          "level": "strong",
+          "description": "Aligns engineers, product owners and leadership on security constraints and trade-offs"
+        },
+        {
+          "name": "Technical communication",
+          "level": "strong",
+          "description": "Explains security and platform concepts to non-specialists without loss of precision"
+        },
+        {
+          "name": "Technical writing",
+          "level": "strong",
+          "description": "Produces clear design docs, security assessments, procedures and training material"
+        }
+      ]
+    },
+    {
+      "category": "Decision and Execution",
+      "items": [
+        {
+          "name": "Decision framing",
+          "level": "strong",
+          "description": "Structures options, risks and trade-offs to enable informed engineering decisions"
+        },
+        {
+          "name": "Prioritization",
+          "level": "strong",
+          "description": "Determines sequencing of work under constraints of time, risk and dependencies"
+        },
+        {
+          "name": "Autonomous execution",
+          "level": "strong",
+          "description": "Executes scoped work independently and escalates only when blocked"
+        }
+      ]
+    },
+    {
+      "category": "Communication Under Constraints",
+      "items": [
+        {
+          "name": "Crisis communication",
+          "level": "strong",
+          "description": "Communicates clearly during outages, security incidents or high-pressure changes"
+        },
+        {
+          "name": "Context switching",
+          "level": "strong",
+          "description": "Maintains focus across parallel technical streams without degrading output"
+        }
+      ]
+    },
+    {
+      "category": "Enablement and Mentoring",
+      "items": [
+        {
+          "name": "Engineer training",
+          "level": "strong",
+          "description": "Builds training paths to scale security capability across engineering teams"
+        }
+      ]
+    }
+  ]
+}

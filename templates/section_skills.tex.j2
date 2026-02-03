@@ -1,0 +1,17 @@
+\sectionTitle{Technical skills}{\faTasks}
+\begin{keywords}
+<BLOCK> for cat in hard_skills -</BLOCK>
+<BLOCK> for s in cat["items"] -</BLOCK>
+    \keywordsentry{<VAR> s["name"] | replace("#", "\#") | replace("&", "\&")</VAR>}{<BLOCK> if s["description"] </BLOCK><VAR> s["description"] | replace("#", "\#") | replace("&", "\&")</VAR> - <BLOCK> endif </BLOCK><VAR> s["level"] | replace("#", "\#") | replace("&", "\&")</VAR>}
+<BLOCK> endfor -</BLOCK>
+<BLOCK> endfor -</BLOCK>
+\end{keywords}
+
+\sectionTitle{Organisational and interpersonal skills}{\faComments}
+\begin{itemize}
+<BLOCK> for cat in soft_skills -</BLOCK>
+<BLOCK> for s in cat["items"] -</BLOCK>
+    \item \textbf{<VAR> s["name"] | replace("#", "\#") | replace("&", "\&")</VAR>}: <VAR> s["description"] | replace("&", "\&") | replace("#", "\#")</VAR>
+<BLOCK> endfor -</BLOCK>
+<BLOCK> endfor -</BLOCK>
+\end{itemize}

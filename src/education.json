@@ -1,0 +1,41 @@
+{
+  "cv_id": "cv-andrea-martino",
+  "education": [
+    {
+      "degree": "Master in Information Security Specialist",
+      "level": "postgraduate",
+      "institution": "Cefriel & Politecnico di Milano",
+      "location": "Milano, Italy",
+      "graduation_year": 2020,
+      "thesis_title": "Securing Unstructured Data",
+      "grade": "110 cum laude"
+    },
+    {
+      "degree": "Laurea Magistrale (MSc) in Computer Science and Engineering",
+      "level": "master",
+      "institution": "Politecnico di Milano",
+      "location": "Milano, Italy",
+      "graduation_year": 2018,
+      "thesis_title": "A study on CAN Bus filtering techniques",
+      "grade": 106
+    },
+    {
+      "degree": "Laurea Triennale (Bachelor) in Ingegneria Informatica",
+      "level": "bachelor",
+      "institution": "Politecnico di Milano",
+      "location": "Milano, Italy",
+      "graduation_year": 2016,
+      "thesis_title": null,
+      "grade": null
+    },
+    {
+      "degree": "Maturità Scientifica",
+      "level": "high_school",
+      "institution": "IIS Bachelet",
+      "location": "Abbiategrasso, Italy",
+      "graduation_year": 2012,
+      "thesis_title": null,
+      "grade": null
+    }
+  ]
+}

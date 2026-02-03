@@ -1,0 +1,1 @@
+Simple pipeline to build and upload my CV using Jinja templating, LaTeX and GitHub actions.

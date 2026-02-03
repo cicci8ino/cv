@@ -1,0 +1,28 @@
+% YAAC Another Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/yaac-another-awesome-cv
+%
+% Author:
+% Christophe Roger
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%Section: Work Experience at the top
+\sectionTitle{Experience}{\faSuitcase}
+%\renewcommand{\labelitemi}{$\bullet$}
+\begin{experiences}
+    <BLOCK>for exp in experiences -</BLOCK>
+    \experience
+    {<VAR>"Today" if exp.current else exp.end_date</VAR>}{<VAR>exp.role</VAR>}{<VAR>exp.company</VAR>}{<VAR>exp.location | default("")</VAR>}
+    {<VAR>exp.start_date</VAR>}{
+                      \begin{itemize}
+                      <BLOCK>for h in exp.highlights -</BLOCK>
+                      \item <VAR>h | replace("&", "\&")</VAR>
+                      <BLOCK>endfor -</BLOCK>
+                      \end{itemize}
+                    }
+                    {<VAR>exp.skills | join(", ")</VAR>}
+  \emptySeparator
+    <BLOCK>endfor -</BLOCK>
+\end{experiences}

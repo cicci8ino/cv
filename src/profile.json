@@ -1,0 +1,26 @@
+{
+  "id": "cv-andrea-martino",
+  "version": 1,
+  "locale": "en-IT",
+  "personal": {
+    "first_name": "Andrea",
+    "last_name": "Martino",
+    "headline": "Cyber Security Consultant | Cyber Security Engineer",
+    "github": "cicci8ino",
+    "linkedin": "andrea-martino-56480066",
+    "tagline": "Cloud-Native Security Engineer specialized in Kubernetes and Supply Chain Security",
+    "location": {
+      "city": "Rosate",
+      "province": "MI",
+      "postal_code": "20088",
+      "country": "Italy"
+    },
+    "contacts": {
+      "email": "andrea@martino.wtf"
+    },
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/andrea-martino-56480066/",
+      "website": "https://blog.martino.wtf"
+    }
+  }
+}

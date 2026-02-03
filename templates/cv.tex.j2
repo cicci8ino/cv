@@ -1,0 +1,41 @@
+% !TEX TS-program = luatex
+% USA STEM CV LaTeX Template
+%
+% Author:
+% Sabrina Benge
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,alternative]{yaac-another-awesome-cv}
+\name{<VAR>personal.first_name</VAR>}{<VAR>personal.last_name</VAR>}
+\photo{2.5cm}{picture}
+\tagline{<VAR>personal.headline</VAR>}
+
+\socialinfo{
+	\email{<VAR>personal.contacts.email</VAR>}\\
+	\linkedin{<VAR>personal.linkedin</VAR>}
+	\github{<VAR>personal.github</VAR>}\\
+	\website{<VAR>personal.links.website</VAR>}{<VAR>personal.links.website</VAR>}\\
+	\address{<VAR>personal.location.city</VAR> (<VAR>personal.location.province</VAR>), <VAR>personal.location.postal_code</VAR>, <VAR>personal.location.country</VAR>}
+	%\infos{}
+}
+
+\begin{document}
+
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{}} %\selectlanguage{english}\today
+		{\textsc{<VAR>personal.first_name</VAR> <VAR>personal.last_name</VAR> - CV}}
+		{\thepage}
+
+	\input{section_headline}                % Research Statement
+	\input{section_experience}	        	% Section Professional Experience
+	\input{section_skills}				    % Section Skills
+    \input{section_certifications}          % Section Certifications
+	\input{section_honors_awards}			% Section Honors and Awards
+	\input{section_languages}				% Section languaqes
+	%\input{section_projects}                % Section Projects
+
+\end{document}

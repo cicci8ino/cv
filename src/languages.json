@@ -1,0 +1,15 @@
+{
+  "cv_id": "cv-andrea-martino",
+  "languages": [
+    {
+      "language": "Italian",
+      "code": "it",
+      "proficiency": "native"
+    },
+    {
+      "language": "English",
+      "code": "en",
+      "proficiency": "full_professional"
+    }
+  ]
+}
