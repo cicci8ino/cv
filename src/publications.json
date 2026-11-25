@@ -1,0 +1,19 @@
+{
+  "publications": [
+    {
+      "title": "Flux CD D1 Reference Architecture Guide",
+      "date": "2024-03-21",
+      "url": "https://raw.githubusercontent.com/controlplaneio-fluxcd/distribution/main/guides/ControlPlane_Flux_D1_Reference_Architecture_Guide.pdf"
+    },
+    {
+      "title": "Flux CD D2 Reference Architecture Guide",
+      "date": "2025-04-03",
+      "url": "https://raw.githubusercontent.com/controlplaneio-fluxcd/distribution/main/guides/ControlPlane_Flux_D2_Reference_Architecture_Guide.pdf"
+    },
+    {
+      "title": "cert-manager End User Threat Model and Hardening Guide",
+      "date": "2026-03-26",
+      "url": "https://cert-manager.io/docs/announcements/controlplane-2026-cert-manager-hardening-guide.pdf"
+    }
+  ]
+}

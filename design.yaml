@@ -1,0 +1,18 @@
+design:
+  theme: engineeringresumes
+  page:
+    show_top_note: false
+    show_footer: true
+  entries:
+    allow_page_break: true
+  templates:
+    footer: NAME - CV | PAGE_NUMBER
+    single_date: YEAR-MONTH_IN_TWO_DIGITS
+    experience_entry:
+      main_column: "**POSITION**, COMPANY -- LOCATION\nHIGHLIGHTS\n*SKILLS*"
+    education_entry:
+      main_column: "**AREA**, INSTITUTION.\nSUMMARY"
+    normal_entry:
+      main_column: NAME
+    publication_entry:
+      main_column: "**[TITLE](PDF_TARGET)**"

@@ -10,11 +10,13 @@
       "end_date": null,
       "current": true,
       "highlights": [
+        "Contribute to platform design, infrastructure, and hardening for [FINOS OSERA](https://osera.finos.org), which helps regulated institutions patch vulnerabilities in open source dependencies.",
+        "Designed and implemented labs for enterprise AI training.",
         "Designed and delivered threat modeling engagements for enterprise platforms against industry standards (MITRE ATT&CK, CIS Benchmarks, NIST).",
         "Co-authored Flux D1 and D2 Reference Design Manuals adopted by multiple enterprises to standardize GitOps operating models.",
         "Architected an AI-assisted pipeline mapping ATT&CK patterns to structured tactics to accelerate adversarial analysis and reporting.",
         "Enabled platform-as-product operating model through Infrastructure-as-Code and GitOps automation.",
-        "Designed Kubernetes security scenarios for large-scale Capture the Flag events (KubeCon) to train engineers on adversarial thinking and cloud native technologies.",
+        "Designed Kubernetes security scenarios for large-scale [Capture the Flag](https://ctf.control-plane.io) events (KubeCon) to train engineers on adversarial thinking and cloud native technologies.",
         "Built and enforced supply-chain security controls for open-source ingestion to reduce dependency risk exposure across pipelines."
       ],
       "skills": [
